@@ -9,17 +9,17 @@ require 'car.php';
 require 'connect.php';
 
 // Instantiate a Car object
-$myCar = new Car("Toyota", "Corolla", 2020);
+$myCar = new Car("Honda", "Civic", 2020);
 
 // Echo car information to the browser
 echo "<p>" . $myCar->getInfo() . "</p>";
 
 /*
 Lab Reflection:
-The easiest part of this lab was creating the Car class and instantiating an object. 
-It was straightforward to define properties and methods. 
-The most challenging part was setting up the PDO connection and remembering to use try/catch blocks 
-to properly handle errors. Overall, I learned how to structure PHP projects using include/require
-and how to connect to a database securely.
+
+I found creating the Car class and using methods straightforward. 
+Connecting to the MySQL database with PDO was a bit challenging at first, 
+especially figuring out the correct port and credentials. 
+Using include/require to organize my code was easy and helped keep the code clean.
 */
 ?>
